@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+Body
+{margin:0;padding:0;font-family:sans-serif}*{font-family:Questrial}
+
+.Boxes{
+    /*text-align:left;display:-ms-flexbox;*/
+    /*Display:flex;-ms-flex-direction:column;*/
+    Flex-direction:row;
+    /*width:60%;-ms-flex-item-align:center;*/
+    /*align-self:center;*/
+    /*min-width:350px;*/
+    /*margin:auto;*/
+    /*margin-bottom:100px;*/
+    flex: 2;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+.Project{
+    height: 400px;
+    width: 100%;
+    background-color: #ee7752;
+    flex: 2;
+
+}
+
+.Project2{
+    height: 400px;
+    flex: 2;
+    background-color: #e73c7e;
+    Display:flex;
+}
+
+.Project3{
+    height: 400px;
+    flex: 2;
+    background-color: #23a6d5;
+}
+
+.Project4{
+    height: 400px;
+    flex: 2;
+    background-color: #23d5ab;
+}
+
+h3{
+    align-self: right;
+    font-size: 25px;
+    margin-left: 77%;
+    /*right:40px;*/
+}
+
+
+

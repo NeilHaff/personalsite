@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+Body
+{margin:0;padding:0;font-family:sans-serif}*{font-family:Questrial}
+
+.App{
+    text-align:left;display:-ms-flexbox;
+    Display:flex;-ms-flex-direction:column;
+    Flex-direction:column;
+    width:60%;-ms-flex-item-align:center;
+    align-self:center;
+    min-width:350px;
+    margin:auto;
+    margin-bottom:100px}
+
+
+.link{
+    color:#fff;
+    text-underline:#fff;
+    text-decoration:none
+}
+
+.link:hover{
+    font-weight:700;
+    text-decoration:underline
+}
+
+.para{
+    Display:-ms-flexbox;
+    display:flex;-ms-flex-wrap:wrap;
+    Flex-wrap:wrap;
+    margin-bottom:15px}
+
+.para P
+{font-size:16px;
+    margin-top:0;
+    Margin-bottom:0;
+    font-style:italic;
+    display:inline-block;
+    float:right;
+    width:60%;
+    Line-height:1.3
+}
+
+.SecondPara P
+{   font-size:20px;
+    margin-top:0;
+    Margin-bottom:18;
+    display:inline-block;
+    Line-height:1.3
+}
+
+
+h3{
+    align-self: right;
+    font-size: 25px;
+    margin-left: 77%;
+    /*right:40px;*/
+}
+
+.nav{
+    align-items: flex-end;
+    display: flex;
+    float: right;
+}
+
+
+.Intro
+{
+    margin-top:10px;
+    margin-bottom:40px}
+
+.title{
+    Margin-top:20px;
+    margin-bottom:20px}
+
+H1{font-size:20;margin-bottom:0}
+
+H1,h2{margin-top:0}
+
+H2{font-size:28px;margin-bottom:40px;font-weight:300;right:0;left:0;line-height:1.1}
+
+.col1{display:inline-block;float:left;margin-bottom:0;width:35%;padding-right:10px}
+
+h4{
+    font-size:18px;
+    margin-bottom:0;
+    font-style:bold
+}
+
+
+
+/*h3,h4{*/
+    /*margin-top:0;*/
+    /*font-family:Questrial}*/
+
+/*h3{*/
+    /*font-size:14px;*/
+    /**/
+    /*line-height:1.2}*/
+
+
+.logos{
+    display:block;-
+    Ms-flex-direction:row;
+    flex-direction:row;
+    Max-height:60px;
+    margin-bottom:80px;
+    margin-top:10px}
+
+.icon{
+    Max-height:50px;
+    max-width:50px;
+    Margin-right:10px;
+    Padding:3px
+}
+
+.Project{
+    height: 400px;
+    width: 100%;
+    background-color: #ee7752;
+}
+
+.Project2{
+     height: 400px;
+     width: 100%;
+     background-color: #e73c7e;
+ }
+
+.Project3{
+     height: 400px;
+     width: 100%;
+     background-color: #23a6d5;
+ }
+
+.Project4{
+    height: 400px;
+    width: 100%;
+    background-color: #23d5ab;
+}
+
+.icon:hover{
+    background-color:#ee7752}
+
+.SecondPara{
+    margin-top:40px}@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes
+                                                                                                                                                                          App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+body{width:100wh;height:90vh;color:#fff;
+
+    background:-webkit-linear-gradient(135deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background:-o-linear-gradient(135deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size:400% 400%;-webkit-animation:Gradient 15s ease infinite;
+    animation:Gradient 15s ease infinite}@-webkit-keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}@keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
+
+.subheading{
+    font-style:italic}
+/*# sourceMappingURL=main.d79564ab.css.map*/
