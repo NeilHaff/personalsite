@@ -4,54 +4,158 @@ Body
 {margin:0;padding:0;font-family:sans-serif}*{font-family:Questrial}
 
 .Boxes{
-    /*text-align:left;display:-ms-flexbox;*/
-    /*Display:flex;-ms-flex-direction:column;*/
-    Flex-direction:row;
-    /*width:60%;-ms-flex-item-align:center;*/
-    /*align-self:center;*/
-    /*min-width:350px;*/
-    /*margin:auto;*/
-    /*margin-bottom:100px;*/
-    flex: 2;
+    /*flex: 2;*/
     width: 100%;
-    background-color: white;
 
+}
+
+.ProjectBox h2{
+    color: #23a6d5;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 40px 40px;
+}
+
+.Content H3{
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 5px 5px;
+    max-height: 20px;
+    margin-left: 0%;
+    text-align: center;
 }
 
 
 .Project{
-    height: 400px;
+    min-height: 300px;
     width: 100%;
-    background-color: #ee7752;
-    flex: 2;
+    background-color: #23a6d5;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px 20px 15px;
+    height: fit-content;
 
 }
 
+.link h3:hover {
+    border-width: 1px;
+    font-weight: bold;
+    color: green;
+}
+
+
 .Project2{
-    height: 400px;
-    flex: 2;
     background-color: #e73c7e;
-    Display:flex;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px 20px 15px;
+    height: fit-content;
+
 }
 
 .Project3{
-    height: 400px;
-    flex: 2;
-    background-color: #23a6d5;
+    background-color: #ee7752;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px 20px 15px;
+    height: fit-content;
+
 }
 
 .Project4{
-    height: 400px;
-    flex: 2;
     background-color: #23d5ab;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px 30px 15px;
+    height: fit-content;
+    margin-bottom: 50px;
+    text-align: center;
+    /*flex-direction: column;*/
+    /*align-content: center;*/
 }
+
+.Project4 p{
+    color: white;
+    font-size: 20px;
+}
+
+.Project4 .logos{
+    display:block;-
+Ms-flex-direction:row;
+    flex-direction:row;
+    Max-height:80px;
+    /*margin-bottom:80px;*/
+    /*margin-top:10px;*/
+    margin: 10px 40px 40px;
+    align-content: center;
+
+}
+
+.Project4  .icon{
+    Max-height:30px;
+    max-width:120px;
+    Margin-right:10px;
+    Padding:3px
+}
+
+.ProjectBox{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    Flex-direction:row;
+    margin-bottom: 30px;
+}
+
+
+
+
+.Content{
+    max-width: 400px;
+    min-height: 100px;
+    /*margin: auto;*/
+    padding: 0px 20px 25px;
+}
+
+.Content p{
+    color: white;
+    font-size: 20px;
+}
+
+li{
+    color: white;
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+
 
 h3{
     align-self: right;
-    font-size: 25px;
-    margin-left: 77%;
+    /*font-size: 25px;*/
+    margin-left: 65%;
+    margin-bottom: 10px;
+
     /*right:40px;*/
 }
+
+
 
 
 

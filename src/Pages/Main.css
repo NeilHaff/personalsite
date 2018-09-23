@@ -3,6 +3,8 @@
 Body
 {margin:0;padding:0;font-family:sans-serif}*{font-family:Questrial}
 
+
+
 .App{
     text-align:left;display:-ms-flexbox;
     Display:flex;-ms-flex-direction:column;
@@ -11,29 +13,52 @@ Body
     align-self:center;
     min-width:350px;
     margin:auto;
-    margin-bottom:100px}
+}
+
+.App h3{
+    align-self: right;
+    font-size: 20px;
+    margin-left: 85%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 5px 5px;
+    text-align:center
+
+}
+
+.App h3:hover{
+    border-width: 1px;
+    background-color: white;
+}
 
 
 .link{
     color:#fff;
     text-underline:#fff;
-    text-decoration:none
+    text-decoration:none;
+    font-weight: normal;
 }
 
 .link:hover{
-    font-weight:700;
-    text-decoration:underline
+    /*font-weight:700;*/
+    text-decoration:none;
+    /*font-weight: bold;*/
+    font-weight: bold;
+    border-width: 3px;
+    color: #e73c7e;
+
 }
 
 .para{
     Display:-ms-flexbox;
     display:flex;-ms-flex-wrap:wrap;
     Flex-wrap:wrap;
-    margin-bottom:15px}
+    margin-bottom:0px
+}
 
 .para P
 {font-size:16px;
-    margin-top:0;
+    margin-top:20px;
     Margin-bottom:0;
     font-style:italic;
     display:inline-block;
@@ -51,13 +76,6 @@ Body
 }
 
 
-h3{
-    align-self: right;
-    font-size: 25px;
-    margin-left: 77%;
-    /*right:40px;*/
-}
-
 .nav{
     align-items: flex-end;
     display: flex;
@@ -67,20 +85,33 @@ h3{
 
 .Intro
 {
-    margin-top:10px;
-    margin-bottom:40px}
+    margin-top:0px;
+    margin-bottom:10px}
 
 .title{
-    Margin-top:20px;
+    Margin-top:30px;
     margin-bottom:20px}
 
-H1{font-size:20;margin-bottom:0}
+H1{
+    font-size:20;
+    margin-bottom:0
+}
 
 H1,h2{margin-top:0}
 
-H2{font-size:28px;margin-bottom:40px;font-weight:300;right:0;left:0;line-height:1.1}
+H2{
+    font-size:28px;
+    margin-bottom:40px;
+    font-weight:300;right:0;
+    left:0;
+    line-height:1.1}
 
-.col1{display:inline-block;float:left;margin-bottom:0;width:35%;padding-right:10px}
+.col1{
+    display:inline-block;
+    float:left;
+    margin-bottom:0;
+    width:35%;
+    padding-right:10px}
 
 h4{
     font-size:18px;
@@ -88,6 +119,15 @@ h4{
     font-style:bold
 }
 
+.footer{
+    align-self: right;
+}
+
+.footer h3{
+    font-size: 25px;
+    border: transparent;
+    margin-left: 75%;
+}
 
 
 /*h3,h4{*/
@@ -143,7 +183,12 @@ h4{
     background-color:#ee7752}
 
 .SecondPara{
-    margin-top:40px}@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes
+    margin-top:80px;
+    margin-bottom:100px
+
+}
+
+@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes
                                                                                                                                                                           App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
 body{width:100wh;height:90vh;color:#fff;
 

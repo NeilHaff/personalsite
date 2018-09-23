@@ -8,7 +8,7 @@ class Projects extends Component {
             <div>
             <div className="App">
 
-                <h3><a href='https://www.reactivemanifesto.org/' target='_blank' className='link' rel='noopener'>Projects</a></h3>
+                <h3><a href='/' target='_self' className='link' rel='noopener'>Home</a></h3>
 
                 <div className="Intro">
                     <h1>NEIL HAFFENDEN</h1>
@@ -18,6 +18,7 @@ class Projects extends Component {
 
                 <ProjectBoxes />
 
+                <h3><a href='mailto:neil@thecode.company?Subject=Hello%20again' target='_top' className='link' rel='noopener'>Contact Me</a></h3>
             </div>
 
         );
